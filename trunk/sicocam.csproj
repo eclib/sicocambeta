@@ -41,9 +41,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AssemblyInfo.cs" />
-    <Compile Include="Digitación.cs" />
-    <Compile Include="Digitación.Designer.cs">
-      <DependentUpon>Digitación.cs</DependentUpon>
+    <Compile Include="Digitacion.cs" />
+    <Compile Include="Digitacion.Designer.cs">
+      <DependentUpon>Digitacion.cs</DependentUpon>
     </Compile>
     <Compile Include="MainForm.cs" />
     <Compile Include="MainForm.Designer.cs">
@@ -60,8 +60,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Rutinas.cs" />
-    <EmbeddedResource Include="Digitación.resx">
-      <DependentUpon>Digitación.cs</DependentUpon>
+    <EmbeddedResource Include="Digitacion.resx">
+      <DependentUpon>Digitacion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>

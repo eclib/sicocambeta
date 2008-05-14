@@ -6,5 +6,5 @@ C:\Documents and Settings\Dario\Mis documentos\SharpDevelop Projects\sicocam\obj
 C:\Documents and Settings\Dario\Mis documentos\SharpDevelop Projects\sicocam\obj\Debug\sicocam.exe
 C:\Documents and Settings\Dario\Mis documentos\SharpDevelop Projects\sicocam\obj\Debug\sicocam.pdb
 C:\Documents and Settings\Dario\Mis documentos\SharpDevelop Projects\sicocam\obj\Debug\sicocam.Principal.resources
-C:\Documents and Settings\Dario\Mis documentos\SharpDevelop Projects\sicocam\obj\Debug\sicocam.Digitación.resources
 C:\Documents and Settings\Dario\Mis documentos\SharpDevelop Projects\sicocam\obj\Debug\sicocam.Mantenedor.resources
+C:\Documents and Settings\Dario\Mis documentos\SharpDevelop Projects\sicocam\obj\Debug\sicocam.Digitacion.resources

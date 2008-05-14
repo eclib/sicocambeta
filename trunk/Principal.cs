@@ -39,7 +39,7 @@ namespace sicocam
 		
 		void Button1Click(object sender, EventArgs e)
 		{
-			sicocam.Digitación Dg = new Digitación();
+			sicocam.Digitacion Dg = new Digitacion();
 			this.Enabled = false;
 			Dg.PP = this;
 			Dg.Show();

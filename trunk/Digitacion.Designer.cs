@@ -8,7 +8,7 @@
  */
 namespace sicocam
 {
-	partial class Digitación
+	partial class Digitacion
 	{
 		/// <summary>
 		/// Designer variable used to keep track of non-visual components.
@@ -59,7 +59,7 @@ namespace sicocam
 			this.Name = "Digitación";
 			this.Text = "Digitación";
 			this.Load += new System.EventHandler(this.GenLoad);
-			this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.DigitaciónFormClosed);
+			this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.DigitacionFormClosed);
 			((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
 			this.ResumeLayout(false);
 		}

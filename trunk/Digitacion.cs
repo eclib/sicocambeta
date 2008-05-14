@@ -14,16 +14,16 @@ using System.Collections;
 namespace sicocam
 {
 	/// <summary>
-	/// Description of Digitación.
+	/// Description of Digitacion.
 	/// </summary>
-	public partial class Digitación : Form
+	public partial class Digitacion : Form
 	{
 		public sicocam.Principal PP;
 		private Queue org = new Queue();
 		private Queue des = new Queue();
 		private string SQL;
 		
-		public Digitación()
+		public Digitacion()
 		{
 			//
 			// The InitializeComponent() call is required for Windows Forms designer support.
@@ -42,7 +42,7 @@ namespace sicocam
 			rut.FillGridView(dataGridView1,this.SQL);
 		}
 
-		void DigitaciónFormClosed(object sender, FormClosedEventArgs e)
+		void DigitacionFormClosed(object sender, FormClosedEventArgs e)
 		{
 			PP.Enabled=true;
 		}
