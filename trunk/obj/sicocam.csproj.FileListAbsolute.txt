@@ -1,0 +1,10 @@
+C:\Documents and Settings\Dario\Mis documentos\SharpDevelop Projects\sicocam\bin\Debug\sicocam.exe
+C:\Documents and Settings\Dario\Mis documentos\SharpDevelop Projects\sicocam\bin\Debug\sicocam.pdb
+C:\Documents and Settings\Dario\Mis documentos\SharpDevelop Projects\sicocam\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Dario\Mis documentos\SharpDevelop Projects\sicocam\obj\Debug\sicocam.MainForm.resources
+C:\Documents and Settings\Dario\Mis documentos\SharpDevelop Projects\sicocam\obj\Debug\sicocam.csproj.GenerateResource.Cache
+C:\Documents and Settings\Dario\Mis documentos\SharpDevelop Projects\sicocam\obj\Debug\sicocam.exe
+C:\Documents and Settings\Dario\Mis documentos\SharpDevelop Projects\sicocam\obj\Debug\sicocam.pdb
+C:\Documents and Settings\Dario\Mis documentos\SharpDevelop Projects\sicocam\obj\Debug\sicocam.Principal.resources
+C:\Documents and Settings\Dario\Mis documentos\SharpDevelop Projects\sicocam\obj\Debug\sicocam.Digitación.resources
+C:\Documents and Settings\Dario\Mis documentos\SharpDevelop Projects\sicocam\obj\Debug\sicocam.Mantenedor.resources
