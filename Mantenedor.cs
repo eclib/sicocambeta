@@ -22,9 +22,18 @@ namespace sicocam
 		private string tablaactual = "";
 		private bool chngstate     = false;
 		private bool newstate      = false;
+		// Ojo esto es para poder utilizar la ayuda general que se saco desdel el GHA //
+		private System.Windows.Forms.TextBox TextAyuda = new System.Windows.Forms.TextBox();
+		private int TRow = 0;
+		private int TCol = 0;
+		// ========================================================================== //
 
 		public Mantenedor()
 		{
+			// Ojo esto es para poder utilizar la ayuda general que se saco desdel el GHA //
+			this.TextAyuda.Text="- Sin informacion .";
+			this.TextAyuda.TextChanged += new EventHandler(this.testt);
+			// ========================================================================== //
 			//
 			// The InitializeComponent() call is required for Windows Forms designer support.
 			//
@@ -34,7 +43,10 @@ namespace sicocam
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
 		}
-		
+		void testt(object sender, EventArgs e)
+		{
+			dataGridView1.Rows[this.TRow].Cells[this.TCol].Value=TextAyuda.Text;
+		}
 		void MantenedorFormClosed(object sender, FormClosedEventArgs e)
 		{
 			PP.Enabled=true;
@@ -262,6 +274,31 @@ namespace sicocam
 				this.newstate = true;
 				this.chngstate = true;
 			}
+		}
+		
+		void TextBox1TextChanged(object sender, EventArgs e)
+		{
+			
+		}
+		
+		
+		void DataGridView1CellClick(object sender, DataGridViewCellEventArgs e)
+		{
+			switch(comboBox1.Text){
+				case "Obras" :
+					if (e.ColumnIndex == 1)
+					{
+						this.TRow = e.RowIndex;
+						this.TCol = e.ColumnIndex;
+						string sSQL = "SELECT * FROM clientes;;";
+						AyuGen AYG = new AyuGen(sSQL);
+						AYG.AddOrigen("idClientes");
+						AYG.AddDestino(this.TextAyuda);
+		     			AYG.Show();
+					}
+					break;
+			}
+			
 		}
 	}
 }

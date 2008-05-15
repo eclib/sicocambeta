@@ -8,3 +8,4 @@ C:\Documents and Settings\Dario\Mis documentos\SharpDevelop Projects\sicocam\obj
 C:\Documents and Settings\Dario\Mis documentos\SharpDevelop Projects\sicocam\obj\Debug\sicocam.Principal.resources
 C:\Documents and Settings\Dario\Mis documentos\SharpDevelop Projects\sicocam\obj\Debug\sicocam.Mantenedor.resources
 C:\Documents and Settings\Dario\Mis documentos\SharpDevelop Projects\sicocam\obj\Debug\sicocam.Digitacion.resources
+C:\Documents and Settings\Dario\Mis documentos\SharpDevelop Projects\sicocam\obj\Debug\sicocam.AyuGen.resources

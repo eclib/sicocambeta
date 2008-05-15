@@ -58,6 +58,7 @@ namespace sicocam
 			this.dataGridView1.UserDeletingRow += new System.Windows.Forms.DataGridViewRowCancelEventHandler(this.DataGridView1UserDeletingRow);
 			this.dataGridView1.RowLeave += new System.Windows.Forms.DataGridViewCellEventHandler(this.DataGridView1RowLeave);
 			this.dataGridView1.RowsAdded += new System.Windows.Forms.DataGridViewRowsAddedEventHandler(this.DataGridView1RowsAdded);
+			this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DataGridView1CellClick);
 			// 
 			// label1
 			// 

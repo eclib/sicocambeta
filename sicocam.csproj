@@ -41,6 +41,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="AyuGen.cs" />
+    <Compile Include="AyuGen.Designer.cs">
+      <DependentUpon>AyuGen.cs</DependentUpon>
+    </Compile>
     <Compile Include="Digitacion.cs" />
     <Compile Include="Digitacion.Designer.cs">
       <DependentUpon>Digitacion.cs</DependentUpon>
@@ -60,6 +64,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Rutinas.cs" />
+    <EmbeddedResource Include="AyuGen.resx">
+      <DependentUpon>AyuGen.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Digitacion.resx">
       <DependentUpon>Digitacion.cs</DependentUpon>
     </EmbeddedResource>
