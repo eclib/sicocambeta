@@ -19,7 +19,6 @@ namespace sicocam
 	public partial class Mantenedor : Form
 	{
 		public sicocam.Principal PP;
-		private string tablaactual = "";
 		private bool chngstate     = false;
 		private bool newstate      = false;
 		// Ojo esto es para poder utilizar la ayuda general que se saco desdel el GHA //
@@ -59,23 +58,18 @@ namespace sicocam
 			switch(comboBox1.Text){
 				case "Clientes":
 					SQL += "clientes";
-					this.tablaactual="clientes";
 					break;
 				case "Obras":
 					SQL += "obras";
-					this.tablaactual="obras";
 					break;
 				case "Personal":
 					SQL += "personal";
-					this.tablaactual="personal";
 					break;
 				case "Camiones":
 					SQL += "camiones";
-					this.tablaactual="camiones";
 					break;
 				case "Pozos":
 					SQL += "pozos";
-					this.tablaactual="pozos";
 					break;
 			}
 			rut.FillGridView(dataGridView1,SQL);
@@ -119,11 +113,6 @@ namespace sicocam
 			dataGridView1.Height = this.Height - 94;
 			dataGridView1.Refresh();
 		}
-		
-		void DataGridView1RowLeave(object sender, DataGridViewCellEventArgs e)
-		{
-		}
-		
 		
 		void DataGridView1UserDeletingRow(object sender, DataGridViewRowCancelEventArgs e)
 		{
@@ -276,12 +265,6 @@ namespace sicocam
 			}
 		}
 		
-		void TextBox1TextChanged(object sender, EventArgs e)
-		{
-			
-		}
-		
-		
 		void DataGridView1CellClick(object sender, DataGridViewCellEventArgs e)
 		{
 			switch(comboBox1.Text){
@@ -294,6 +277,7 @@ namespace sicocam
 						AyuGen AYG = new AyuGen(sSQL);
 						AYG.AddOrigen("idClientes");
 						AYG.AddDestino(this.TextAyuda);
+						AYG.Text="Ayuda de Clientes";
 		     			AYG.Show();
 					}
 					break;

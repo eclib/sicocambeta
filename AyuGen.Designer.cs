@@ -45,6 +45,7 @@ namespace sicocam
 			this.GrillaAyuda.AllowUserToAddRows = false;
 			this.GrillaAyuda.AllowUserToDeleteRows = false;
 			this.GrillaAyuda.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+			this.GrillaAyuda.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(101)))), ((int)(((byte)(141)))), ((int)(((byte)(111)))));
 			this.GrillaAyuda.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
 			this.GrillaAyuda.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.GrillaAyuda.Location = new System.Drawing.Point(0, 0);
