@@ -191,7 +191,7 @@ namespace sicocam
 								sql  = "Insert into obras ";
 								sql += "(idObras, idClientes, Nombre, Direccion) Values (";
 								sql += "null, ";
-								sql += "'"+dataGridView1.Rows[e.RowIndex].Cells[1].Value.ToString()+"', ";
+								sql += ""+dataGridView1.Rows[e.RowIndex].Cells[1].Value.ToString()+", ";
 								sql += "'"+dataGridView1.Rows[e.RowIndex].Cells[2].Value.ToString()+"', ";
 								sql += "'"+dataGridView1.Rows[e.RowIndex].Cells[3].Value.ToString()+"' ";
 								sql += ")";
@@ -271,6 +271,10 @@ namespace sicocam
 				case "Obras" :
 					if (e.ColumnIndex == 1)
 					{
+						if (dataGridView1.Rows[e.RowIndex].Cells[0].Value.ToString()==""){
+							this.newstate = true;
+							this.chngstate = true;
+						}
 						this.TRow = e.RowIndex;
 						this.TCol = e.ColumnIndex;
 						string sSQL = "SELECT * FROM clientes;;";
@@ -279,6 +283,7 @@ namespace sicocam
 						AYG.AddDestino(this.TextAyuda);
 						AYG.Text="Ayuda de Clientes";
 		     			AYG.Show();
+		     			
 					}
 					break;
 			}
